@@ -114,19 +114,23 @@ button{
     flex-wrap: nowrap;
     overflow: hidden;
     overflow-x: scroll;
+    height: 50px;
 }
-.main-item{
+/* .main-item{
     padding: 6px 16px;
     border: 2px solid transparent;
-}
-.main-item:hover{
+} */
+.main-href:focus{
     border: 2px solid rgba(184, 255, 236, 1);
     background-color: white;
     border-radius: 6px;
 }
 .main-href{
+    padding: 6px 10px;
     font-family: 'TT Lakes Medium';
     font-size: 16px;
+    border: 2px solid transparent;
+    border-radius: 6px;
     color: rgba(126, 126, 130, 1);
     white-space: nowrap;
 }
@@ -248,9 +252,7 @@ button{
         flex-wrap: wrap;
         gap: 0;
         overflow-x: hidden;
-    }
-    .main-item{
-        padding: 6px 10px;
+        height: 100px;
     }
     .info{
         align-items: flex-start;
